@@ -1,12 +1,11 @@
-body{
 
-    background: #7b4397;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+
+h2{
+
+    font-family: 'Fredoka One', cursive;
+
+
 }
-
-
 
 .nav-item{
 
@@ -140,4 +139,84 @@ body{
         -ms-transform: scale(0.95);
             transform: scale(0.95);
    }
+   
+   #encabezado{
+
+    font-family: 'Fredoka One', cursive;
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    height: 100%;
+    margin: auto;
+    background-color: black;
+    box-shadow: 3px 3px 3px #12F095;
+
+   }
+   #encabezado1{
+    margin-top:10%;
+   }
+   #encabezado1 h1 {
+
+    color: white;
+    font-size:10vh;
+   }
+   #encabezado2{
+
+    text-align: right;
+    
+   }
+
+   #bajar{
+    
+    margin-top:90%;
+
+   }
+  
+   #fuego{
+
+    margin-top:5%;
+    font-family: 'Fredoka One', cursive;
+    
+
+
+   }
+
+   #fuegodiv{
+
+    padding: 3%;
+   }
+  
+   #fuegodiv2{
+
+    display: grid;
+    grid-template-columns: 45% 45%;
+    text-align: justify;
+    justify-content:center;
+
+   }
+
+   #fuegoimg{
+    width: 80%;
+    border-radius: 59px 59px 59px 59px;
+    -moz-border-radius: 59px 59px 59px 59px;
+    -webkit-border-radius: 59px 59px 59px 59px;
+    border: 5px dashed #3908fc;
+
+    box-shadow: 3px 3px 3px #12F095;
+
+   }
+
+   #vapor{
+    font-family: 'Fredoka One', cursive;
+    color:white;
+
+    background-color:#565656;
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+
+   }
+
+
    
