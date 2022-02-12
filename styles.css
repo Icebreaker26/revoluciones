@@ -37,14 +37,7 @@ h2{
     top: 0;
 }
 
-.content h1{
-    text-align: center;
-    width: 80%;
-    margin:10% auto 10px;
-    font-size:50px;
 
-    color: white;
-}
 
 
 .content h3{
@@ -68,6 +61,15 @@ h2{
     
     }
 
+    .content h1{
+        text-align: center;
+        width: 80%;
+        margin:10% auto 10px;
+        font-size:50px;
+    
+        color: white;
+    }
+
 }
 
 /*+++++++++++++++++++INDEX TELEFONOS++++++++++++++++++++++++*/
@@ -77,6 +79,15 @@ h2{
         height: 100%;
         position: absolute;
     }
+}
+
+.content h1{
+    text-align: center;
+    width: 80%;
+    margin:10% auto 10px;
+    font-size:40px;
+
+    color: white;
 }
 
 
@@ -283,11 +294,11 @@ h2{
     
         padding: 3%;
        }
-      
+     
+       
        #fuegodiv2{
     
-        display: grid;
-        grid-template-columns: 45% 45%;
+    
         text-align: justify;
         justify-content:center;
     
